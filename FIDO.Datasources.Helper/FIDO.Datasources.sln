@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIDO.Datasources", "FIDO.Datasources.Helper\FIDO.Datasources.csproj", "{8ABD3A16-4984-4CE9-B229-E56F546E47B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIDO.DataSources.Landesk", "..\FIDO.DataSources.Landesk\FIDO.DataSources.Landesk\FIDO.DataSources.Landesk.csproj", "{0172A346-8D20-4493-813F-E76B8C147FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIDO.DataSources.Jamf", "..\FIDO.DataSources.Jamf\FIDO.DataSources.Jamf\FIDO.DataSources.Jamf.csproj", "{418FD909-85CC-480A-8E06-C711476C50ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIDO.DataSources.CarbonBlack", "..\FIDO.DataSources.CarbonBlack\FIDO.DataSources.CarbonBlack\FIDO.DataSources.CarbonBlack.csproj", "{00346D4A-AF8D-4485-AE6E-62BF5D154ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIDO.DataSources.SentinelOne", "..\FIDO.DataSources.SentinelOne\FIDO.DataSources.SentinelOne\FIDO.DataSources.SentinelOne.csproj", "{FBE606F1-6B15-4FC0-936A-4572E081609D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIDO.DataSources.ActiveDirectory", "..\FIDO.DataSources.ActiveDirectory\FIDO.DataSources.ActiveDirectory\FIDO.DataSources.ActiveDirectory.csproj", "{862091F7-7360-41B0-B62E-6F3C7EF3390A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ABD3A16-4984-4CE9-B229-E56F546E47B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABD3A16-4984-4CE9-B229-E56F546E47B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABD3A16-4984-4CE9-B229-E56F546E47B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABD3A16-4984-4CE9-B229-E56F546E47B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0172A346-8D20-4493-813F-E76B8C147FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0172A346-8D20-4493-813F-E76B8C147FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0172A346-8D20-4493-813F-E76B8C147FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0172A346-8D20-4493-813F-E76B8C147FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418FD909-85CC-480A-8E06-C711476C50ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418FD909-85CC-480A-8E06-C711476C50ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418FD909-85CC-480A-8E06-C711476C50ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418FD909-85CC-480A-8E06-C711476C50ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00346D4A-AF8D-4485-AE6E-62BF5D154ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00346D4A-AF8D-4485-AE6E-62BF5D154ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00346D4A-AF8D-4485-AE6E-62BF5D154ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00346D4A-AF8D-4485-AE6E-62BF5D154ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE606F1-6B15-4FC0-936A-4572E081609D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE606F1-6B15-4FC0-936A-4572E081609D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE606F1-6B15-4FC0-936A-4572E081609D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE606F1-6B15-4FC0-936A-4572E081609D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862091F7-7360-41B0-B62E-6F3C7EF3390A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862091F7-7360-41B0-B62E-6F3C7EF3390A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862091F7-7360-41B0-B62E-6F3C7EF3390A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862091F7-7360-41B0-B62E-6F3C7EF3390A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
